@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/img/logo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="counsell.css">
+	<title>MS Counseling</title>
+	<style>
+		
+
+	</style>
+</head>
+<body>
+	<header class="site-header">
+		<div class="nav-wrap">
+			<a class="brand" href="#">MS Counseling</a>
+
+			<nav class="nav" aria-label="Main navigation">
+				<a class="nav-link" href="#">Home</a>
+				<a class="nav-link" href="#about">About</a>
+				<a class="nav-link" href="#services">Services</a>
+				<a class="nav-link" href="#contact">Contact</a>
+				<a class="nav-link cta" href="#" id="hotlineBtn">Book a session</a>
+			</nav>
+
+			<button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+		</div>
+	</header>
+
+	<div id="mobileNav" class="mobile-nav" aria-hidden="true">
+		<a class="nav-link" href="#">Home</a>
+		<a class="nav-link" href="#about">About</a>
+		<a class="nav-link" href="#services">Services</a>
+		<a class="nav-link" href="#contact">Contact</a>
+		<a class="nav-link cta" href="#" id="hotlineBtnMobile">Book a session</a>
+	</div>
+
+	<main>
+		<section class="hero" aria-label="Hero">
+			<div class="hero-media" aria-hidden="true">
+				<!-- <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=2000&q=80" 
+                alt="Therapy session - counselor and client talking">-->
+                <img src="img/authentic-scene-young-person-undergoing-psychological-therapy.jpg"
+               alt="Therapy session - counselor and client talking">
+			</div>
+
+			<div class="hero-content">
+				<div class="hero-inner">
+					<h1>Welcome to MS Counseling</h1>
+					<p style="color: var(--text);">Compassionate, confidential counseling to support your mental wellbeing. Book a session or learn about our services.</p>
+					<br><p><a class="cta" href="#book">Get Started</a></p>
+				</div>
+			</div>
+		</section>
+
+		
+
+		
+		<section id="about" class="about" aria-label="About MS Counseling">
+			<div class="about-inner">
+				<div class="about-text">
+					<p style="font-size: clamp(1.2rem,3vw + 1rem,3rem);color:var(--text);">About MS Counseling</p>
+					<p >MS Counseling provides compassionate, confidential therapy to help individuals and families navigate life's challenges. Our counselors focus on evidence-based approaches tailored to your needs.</p>
+					<p >We offer individual counseling, couples therapy, and group sessions delivered in a warm, professional environment.</p>
+                    <p>At MS Counseling, we're dedicated to supporting your mental wellness journey. Our team of compassionate, experienced counselors provides a safe, non-judgmental space to explore challenges and grow.
+                        We offer counseling services for individuals, couples, and families, addressing issues like anxiety, relationships, trauma, and more. Our goal is to empower you with tools and insights for a happier, healthier life.
+                        Our Approach<br>
+                        &#8594; Client-centered and empathetic <br>
+                        &#8594; Evidence-based therapies<br>
+                        &#8594; Confidential and professional<br>
+                        Let us walk with you toward healing and growth. 😊<br>
+                    </p>
+                </div>
+
+				<div class="team">
+					<h3 style="color:var(--accent);margin:0 0 .6rem;font-size:clamp(1.2rem,3vw + 1rem,3rem)">Meet our counselors</h3>
+					<div class="team-grid">
+						<a class="card" href="#" role="button" tabindex="0">
+							<span class="card-img" aria-hidden="true">
+							<!--	<img src="https://images.unsplash.com/photo-1550831107-155
+                                3da8c8464?auto=format&fit=crop&w=800&q=80" 
+                                alt="Counselor portrait - Jane Doe">-->
+                                <img src="img/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+                                alt="Counselor portrait - oloruntomi moses">
+							</span>
+							<div class="card-body">
+								<h3>RTD Rev Moses Oloruntomi</h3>
+								<p>Licensed Professional Counselor specializing in marriage prepartory counseling, and relationship therapy.</p>
+								<div class="meta">25+ years experience • Specialized in couples work</div>
+							</div>
+						</a>
+
+						<a class="card" href="#" role="button" tabindex="0">
+							<span class="card-img" aria-hidden="true">
+								<img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Counselor portrait - John Smith">
+							</span>
+							<div class="card-body">
+								<h3>John Smith, MFT</h3>
+								<p>Marriage and Family Therapist with experience in couples counseling and family systems.</p>
+								<div class="meta">8+ years experience •  Remote & in-person</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="services" class="services" aria-label="Counseling Services">
+			<p style="font-size: clamp(1.2rem,3vw + 1rem,3rem);">Our Services</p>
+			<p style="color:var(--muted);margin:0 0 1rem;">We offer a range of counseling services tailored to your needs. Hover a service to highlight it.</p>
+			<div class="service-grid">
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">💬</span>
+							<div>
+								<h3>Individual Therapy</h3>
+								<p>Personalized counseling to manage anxiety, depression, and life transitions.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>One-on-one sessions focused on your goals, with flexible scheduling and a compassionate approach.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">💑</span>
+							<div>
+								<h3>Couples Therapy</h3>
+								<p>Support for relationships, communication, and conflict resolution.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>Evidence-based couples approaches to rebuild trust and improve communication.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">👪</span>
+							<div>
+								<h3>Family Therapy</h3>
+								<p>Systems-based approach to improve family dynamics and understanding.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>Collaborative family work to address relational patterns and strengthen connections.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">🧒</span>
+							<div>
+								<h3>Child & Adolescent</h3>
+								<p>Developmentally-informed therapy for children and teenagers.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>Age-appropriate interventions to support emotional and behavioral growth.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">🧑‍🤝‍🧑</span>
+							<div>
+								<h3>Group Therapy</h3>
+								<p>Peer-supported groups for shared learning and connection.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>Guided group sessions that build community and mutual support.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+
+				<a class="service-card" href="#" tabindex="0">
+					<div class="flip-inner">
+						<div class="front">
+							<span class="service-icon" aria-hidden="true">🌐</span>
+							<div>
+								<h3>Online Counseling</h3>
+								<p>Secure virtual sessions for remote accessibility.</p>
+							</div>
+						</div>
+						<div class="back">
+							<p>Confidential video sessions that fit your schedule and location.</p>
+							<a class="more" href="#">Learn more</a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</section>
+        <section id="contact" class="contact" aria-label="Contact MS Counseling">
+			<div class="info">
+				<p style="font-size: clamp(1.2rem,3vw + 1rem,3rem);">Contact Us</p>
+				<p>Have questions or want to book a session? Send us a message and we'll get back to you within 24 hours.</p>
+				<p style="color:var(--muted);margin:0px;font-size:0.95rem;">Phone: +234-803-641-4884<br>Email: MScounseling@gmail.com</p>
+			</div>
+
+			<form class="contact-form" id="contactForm" aria-label="Contact form">
+				<div class="form-row">
+					<input class="input" name="name" type="text" placeholder="Your name" required />
+					<input class="input" name="email" type="email" placeholder="Email address" required />
+				</div>
+				<div style="margin-top:.6rem">
+					<textarea name="message" placeholder="How can we help you?" required></textarea>
+				</div>
+				<button class="btn-submit" type="submit">Send message</button>
+			</form>
+		</section>
+	</main>
+
+			<footer class="footer" aria-label="Footer">
+		<div class="container">
+			<div>
+				<h4>MS Counseling</h4>
+				<p>Compassionate, confidential counseling for individuals, couples, and families. We're here to support your mental wellbeing.</p>
+				<p style="margin-top:.6rem">Phone: +234-803-641-4884<br>Email: MScounseling@gmail.com</p>
+			</div>
+
+			<div>
+				<h4>Quick Links</h4>
+				<a href="#about">About</a><br>
+				<a href="#services">Services</a><br>
+				<a href="#contact">Contact</a><br>
+				<a href="#book">Book a session</a>
+			</div>
+
+			<div>
+				<h4>Follow us</h4>
+				<div class="social">
+					<a href="#" aria-label="Facebook" title="Facebook">
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.09 5.66 21.25 10.44 21.98v-7.03H7.9v-2.88h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.88h-2.34V21.98C18.34 21.25 22 17.09 22 12.07z"/></svg>
+					</a>
+					<a href="#" aria-label="Twitter" title="Twitter">
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22 5.92c-.63.28-1.3.47-2 .55.72-.43 1.27-1.12 1.53-1.94-.68.4-1.43.7-2.23.86C18.5 4.5 17.6 4 16.58 4c-1.5 0-2.73 1.22-2.73 2.73 0 .21.02.42.07.62C10.2 7.2 7.1 5.4 5 3c-.23.39-.36.85-.36 1.33 0 .92.47 1.73 1.18 2.21-.53-.02-1.03-.16-1.47-.4v.04c0 1.32.94 2.42 2.2 2.67-.46.13-.94.14-1.44.05.41 1.28 1.6 2.2 3.01 2.23-1.1.86-2.48 1.37-3.98 1.37-.26 0-.52-.02-.77-.05 1.43.92 3.13 1.46 4.95 1.46 5.94 0 9.2-4.92 9.2-9.19v-.42c.63-.45 1.18-1.01 1.61-1.64-.58.26-1.2.44-1.85.52z"/></svg>
+					</a>
+					<a href="#" aria-label="Instagram" title="Instagram">
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm8 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM12 7.5A4.5 4.5 0 1 0 12 16.5 4.5 4.5 0 0 0 12 7.5zm0 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5z"/></svg>
+					</a>
+					</div>
+			</div>
+
+			<div class="legal">© <strong>MS Counseling</strong> — All rights reserved • <small>Built with care</small></div>
+		</div>
+	</footer>
+
+	<!-- Hotline modal -->
+	<div class="hotline-overlay" id="hotlineOverlay" aria-hidden="true">
+		<div class="hotline-modal" role="dialog" aria-modal="true" aria-labelledby="hotlineTitle">
+			<h3 id="hotlineTitle">Call our hotline</h3>
+			<p class="hotline-phone">+234-803-641-4884</p>
+            <a class="card" href="#" role="button" tabindex="0">
+							<span class="card-img" aria-hidden="true">
+							   <img src="img/jurica-koletic-7YVZYZeITc8-unsplash.jpg"
+                                alt="Counselor portrait - oloruntomi moses">
+							</span>
+							<div class="card-body">
+								<h3>RTD Rev Moses Oloruntomi</h3>
+								<p>Available week Days 9am-5pm.</p>
+								<div class="meta">Specialized in couples work</div>
+							</div>
+						</a>
+                          <hr />
+                             <a class="card" href="#" role="button" tabindex="0">
+							<span class="card-img" aria-hidden="true">
+							  <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Counselor portrait - John Smith">
+                                alt="Counselor portrait - oloruntomi moses">
+							</span>
+							<div class="card-body">
+								<h3>John Smith, MFT</h3>
+								<p>Works Weekends</p>
+								<div class="meta">Available Remote 24/7</div>
+							</div>
+						</a>
+                         <br/>
+			<p style="margin:0 0 .8rem;color:var(--muted)"></p>
+			<div class="hotline-actions">
+				<a class="hotline-call" href="tel:+2348036414884">Call now</a>
+				<button class="hotline-close" id="hotlineClose" aria-label="Close hotline dialog">Close</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="counsell.js"></script>
+
+</body>
+</html>
